@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Guess the Country</title>
+    </head>
+    <body>
+        <header>
+            <h1>Guess the countrty!</h1>
+            <h3>Guess as many countries as you can before the time runs out!</h3>
+            <button class="game-switch easy">EASY</button>
+            <button class="game-switch hard">HARD</button>
+        </header>
+        <main>
+            <div class="game-main">
+                <h1 class="message hide">Good Job!</h1>
+                <h1 class="end hide">Time's up!</h1>
+                <img src="#" id="flag" alt="random flag">
+                <div class="options">
+                <button id="option1">France</button><button id="option2">Bolivia</button>
+                <button class="hide" id="again">Again</button>
+                </div>
+                <div class="timer">60</div>
+                <div class="progress">
+                    <div class="bar"></div>
+                </div>
+            </div>
+            
+        </main>
+        <script type="module" src="js/script.js"></script>
+        <script type="module" src="js/countries.js"></script>
+    </body>
+</html>
